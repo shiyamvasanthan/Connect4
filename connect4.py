@@ -106,7 +106,7 @@ grid = create_grid()
 #Draw the game board by calling the function. It's not in the main game loop else it will clear all the game pieces
 draw_board()
 
-#Main Game While Loop, run while the end_game variable is false
+#Main Game While Loop
 while True:		
 	#Update the screen
 	pygame.display.update()
